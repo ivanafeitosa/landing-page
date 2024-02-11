@@ -1,0 +1,61 @@
+.navbar {
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 36px;
+    height: 24px;
+}
+
+strong {
+    color: #ff4800;
+    font-size: 25px;
+}
+
+.btn-color {
+    background-color: #ff4800;
+    color: white;
+}
+
+.section-content {
+    height: 40vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-image: url("http://127.0.0.1:5500/assets/img/navio.png");
+      
+      /* Garante que a imagem de fundo cubra toda a seção */
+      background-size: cover;
+      
+      /* Centraliza a imagem de fundo na seção */
+      background-position: center;
+      
+      /* Adiciona altura à seção para que a imagem de fundo seja visível */
+      /* height: 500px; Ajuste conforme necessário */
+      
+      /* Adiciona cor de fundo caso a imagem não carregue ou enquanto estiver carregando */
+      background-color: #c40202;
+}
+
+.teste {
+    width: 30rem;
+}
+
+.subtitle {
+    font-weight: 900;
+    color: #ff4800;
+}
+
+
+
+
+
