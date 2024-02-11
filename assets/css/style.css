@@ -1,3 +1,4 @@
+/* Estilizando o navbar*/
 .navbar {
     background-color: white;
 }
@@ -13,7 +14,7 @@
     height: 24px;
 }
 
-strong {
+.logotipo {
     color: #ff4800;
     font-size: 25px;
 }
@@ -23,6 +24,11 @@ strong {
     color: white;
 }
 
+/* Estilização geral para as sections */
+
+
+
+/* Estilizando a section 1*/
 .section-content {
     height: 40vh;
     color: white;
@@ -46,16 +52,202 @@ strong {
       background-color: #c40202;
 }
 
-.teste {
+.input-section1 {
     width: 30rem;
 }
 
-.subtitle {
+.subtitle-section1 {
     font-weight: 900;
     color: #ff4800;
 }
 
+/* Estilizando a section 2*/
+#section2 {
+    background-color: #f2f2f4;
+    margin-top: 2rem;
+}
 
+.text-section2 {
+    padding: 2rem;
+}
 
+.minititle {
+    color: #ff4800;
+    font-size: small;
+}
+
+.titlesection {
+    color: #1f1f2e;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.numero-section2 {
+    display: block;
+    color: #ff4800;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.legenda-section2 {
+    font-size: small;
+}
+
+.form {
+    background-color: #ff4800;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilizando a section 3*/
+#section3 {
+    margin-top: 2rem;
+}
+
+.conteudo-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.packages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.package {
+    width: 250px;
+    height: 380px;
+    background-color: #f2f2f4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.package-preco {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.package-title {
+    width: 100%;
+    padding: 15px 0 15px 0;
+    background-color: #ff4800;
+}
+
+.btn-package {
+    background-color: #ff4800;
+    color: white;
+    width: 120px;
+}
+
+/* Estlizando a section 4*/
+#section4 {
+    margin-top: 2rem;
+}
+
+.conteudo-section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: #f2f2f4;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #ff4800;
+}
+
+.image-card {
+    width: 200px;
+    height: 175px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+/* Estilizando a section 6*/
+#section6 {
+    background-color: #1f1f2e;
+    color: white;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: small;
+}
+
+.wrap-section6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10rem;
+    /* topo | direita | inferior | esquerda */
+    margin: 0 3rem 0 3rem;
+    /* superior | direita | inferior | esquerda */
+    padding: 3rem 0 3rem 0;
+}
+
+.sub-section6 {
+    width: 30rem;
+}
+
+.titlesection6 {
+    color: #ff4800;
+}
+
+.list-informacoes {
+    list-style-type: none;
+    padding: 0;   
+}
+
+ul li span {
+    font-weight: 900;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 3rem 0 3rem;
+    font-size: small;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.color {
+    color: #ff4800;
+}
 
 
