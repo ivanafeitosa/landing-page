@@ -26,7 +26,9 @@
 
 /* Estilização geral para as sections */
 
-
+.espacamento {
+    margin-top: 2rem;    
+}
 
 /* Estilizando a section 1*/
 .section-content {
@@ -64,7 +66,6 @@
 /* Estilizando a section 2*/
 #section2 {
     background-color: #f2f2f4;
-    margin-top: 2rem;
 }
 
 .text-section2 {
@@ -101,23 +102,17 @@
     justify-content: center;
 }
 
-/* Estilizando a section 3*/
-#section3 {
-    margin-top: 2rem;
+.btn-formsection2 {
+    background-color: #1f1f2e;
+    color: white;
 }
 
+/* Estilizando a section 3*/
 .conteudo-section3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.packages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
 }
 
 .package {
@@ -150,10 +145,6 @@
 }
 
 /* Estlizando a section 4*/
-#section4 {
-    margin-top: 2rem;
-}
-
 .conteudo-section4 {
     display: flex;
     flex-direction: column;
@@ -194,12 +185,51 @@
     font-weight: 700;
 }
 
+/* Estilizando a section 5 */
+
+.post-blog {
+    width: 380px;
+    height: 450px;
+    background-color: #f2f2f4;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: small;
+}
+
+.image-post {
+    width: 380px;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 15px;
+}
+
+.conteudo-post {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.perfil-post {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.image-perfil {
+    width: 35px;
+    border-radius: 50px;
+}
+
+.web-design {
+    display: inline;
+}
+
 /* Estilizando a section 6*/
+
 #section6 {
     background-color: #1f1f2e;
     color: white;
-    width: 100%;
-    margin-top: 2rem;
+    width: 100%;    
     font-size: small;
 }
 
@@ -224,11 +254,26 @@
 
 .list-informacoes {
     list-style-type: none;
-    padding: 0;   
+    padding: 0;      
 }
 
 ul li span {
     font-weight: 900;
+}
+
+.icones {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.circulo {
+    width: 38px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -244,6 +289,11 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .color {
