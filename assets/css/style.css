@@ -31,6 +31,10 @@
 }
 
 /* Estilizando a section 1*/
+h1 {
+    font-size: 3rem;
+}
+
 .section-content {
     height: 40vh;
     color: white;
@@ -156,6 +160,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -237,14 +242,19 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 10rem;
+    /* gap: 5rem; */
     /* topo | direita | inferior | esquerda */
-    margin: 0 3rem 0 3rem;
+     margin: 0 3rem 0 3rem;
     /* superior | direita | inferior | esquerda */
-    padding: 3rem 0 3rem 0;
+     padding: 3rem 0 3rem 0;
+     flex-wrap: wrap;     
 }
 
 .sub-section6 {
+    width: 250px;
+}
+
+.paragrafo {
     width: 30rem;
 }
 
@@ -282,6 +292,7 @@ footer {
     align-items: flex-start;
     margin: 0 3rem 0 3rem;
     font-size: small;
+    flex-wrap: wrap;
 }
 
 .list {
@@ -301,3 +312,55 @@ footer {
 }
 
 
+@media (max-width: 474px) {
+    
+    /* Adaptação da section 1 para as telas menores */
+    .input-section1 {
+        width: auto;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width: 596px) {
+    /* Adaptação da section 6 para as telas menores */
+    .wrap-section6 {
+        gap: 15px;
+    }
+
+    .sub-section6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paragrafo {
+        width: auto;
+    }
+}
+
+@media (max-width: 680px) {
+    
+    /* Adaptação do footer para as telas menores */
+    .list {
+        padding: 0px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
